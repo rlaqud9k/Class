@@ -13,6 +13,14 @@ public class Ex06 {
 			System.out.print(ch+"\t");
 		System.out.println();
 		System.out.println("----------------------------------");
+		
+		System.arraycopy(arr, 0, str, 2, 4);//arr의 0번째부터 str의 2번째에서 4개만큼 복사함
+		for(char ch:arr)
+			System.out.print(ch+"\t");
+		System.out.println();
+		for(char ch:str)
+			System.out.print(ch+"\t");
+		System.out.println();
 
 	}
 
